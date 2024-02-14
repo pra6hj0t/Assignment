@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IosScreen"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is IOS Devolpment"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ios"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="iOS application development is the process of making mobile applications for Apple hardware, including iPhone, iPad and iPod Touch. The software is written in the Swift programming language or Objective-C and then deployed to the App Store for users to download.If you’re a mobile app developer, you may have had reservations about iOS development. For example, each developer needs a Mac computer—and Macs are generally more expensive than their Windows-based counterparts. In addition, once you complete your app, it faces a stringent quality review process before it can be distributed through the App Store.Nevertheless, if your organization’s employees, customers or partners are among the hundreds of millions of Apple iPhone and iPad users around the world, you have obvious reasons to engage in iOS app development. And despite potentially high barriers to entry, developing an iOS app can be as easy as (in some cases easier than) developing for Android. With proper planning and the right resources, you can join the ranks of iOS app developers."
+            android:textSize="18sp"/>
+    </ScrollView>
+
+</LinearLayout>
